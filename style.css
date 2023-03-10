@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,400;0,700;1,400;1,700&family=Outfit:wght@400;700&display=swap');
+
+:root {
+    --color1: hsl(0, 0%, 100%);
+    --color2: hsl(212, 45%, 89%);
+    --color3: hsl(220, 15%, 55%);
+    --color4: hsl(218, 44%, 22%);
+}
+
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding:0;
+}
+body {
+    font-size: 1rem;
+    font-family: 'Outfit', sans-serif;
+    background: var(--color2);
+}
+.container {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height: 150vh;
+}
+.article {
+    width: 20.125rem;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    background: var(--color1);
+   
+}
+.article__img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.article__img img{
+
+    width: 17.6875rem;
+    height: 18rem;
+    border-radius: 10px;
+    margin: 1em 0 2em; 
+}
+.article__text {
+
+    text-align: center;
+}
+    
+.text__h1 {
+
+    color: var(--color4);
+    font-weight: 700;
+    font-size: 1.3125rem;
+    padding: 0 2.25rem;
+    margin-bottom: 1em;
+}
+.text__p {
+    line-height: 18px;
+    font-size: .9375rem;
+    text-align: center;
+    padding: 0 2.25rem 3rem;
+    color: var(--color3);
+    font-weight: 400;
+}
+
+
+    
+    
+    
+
+
+
+
+
+    
+  
+
