@@ -22,7 +22,7 @@ body {
     display:flex;
     align-items: center;
     justify-content: center;
-    height: 150vh;
+    height: 100vh;
 }
 .article {
     width: 20.125rem;
